@@ -39,11 +39,11 @@ function App() {
     setTasks(updatedTasks);
   }
 
-  function onAddTaskClick(newTask) {
+  function onAddTaskClick(title, description) {
     const addTask = {
       id: tasks.length + 1,
-      title: newTask.title,
-      description: newTask.description,
+      title: title,
+      description: description,
       isCompleted: false,
     };
     setTasks([...tasks, addTask]);
