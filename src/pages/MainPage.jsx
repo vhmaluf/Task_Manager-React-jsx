@@ -38,7 +38,7 @@ function MainPage() {
 
   return (
     <div className="w-screen h-screen bg-gray-900 text-white flex justify-center p-6">
-      <div className="w-[500px] space-y-4">
+      <div className="w-125 space-y-4">
         <h1 className="text-3xl font-bold text-center">Task Manager</h1>
         <AddTask onAddTaskClick={onAddTaskClick} />
         <Task

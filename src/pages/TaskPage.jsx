@@ -14,7 +14,7 @@ function TaskPage() {
 
   return (
     <div className="w-screen h-screen bg-gray-900 text-white flex justify-center p-6">
-      <div className="w-[500px] space-y-4">
+      <div className="w-125 space-y-4">
         <div className="flex justify-center relative">
           <button
             onClick={onBackClick}
