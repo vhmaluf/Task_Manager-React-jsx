@@ -3,7 +3,7 @@ import { useState } from "react";
 function AddTask(props) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  console.log(title, description);
+  
   return (
     <div className="bg-gray-700 rounded-md shadow p-6 space-y-4 flex flex-col">
       <input
